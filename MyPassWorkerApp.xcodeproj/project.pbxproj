@@ -14,6 +14,8 @@
 		1979D0FD271187510046163C /* MyPassWorkerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979D0FC271187510046163C /* MyPassWorkerAppTests.swift */; };
 		1979D107271187510046163C /* MyPassWorkerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979D106271187510046163C /* MyPassWorkerAppUITests.swift */; };
 		1979D109271187510046163C /* MyPassWorkerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979D108271187510046163C /* MyPassWorkerAppUITestsLaunchTests.swift */; };
+		1979D1162711C1C90046163C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979D1152711C1C90046163C /* CircleImage.swift */; };
+		1979D11A2712C3D50046163C /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979D1192712C3D50046163C /* ProfilePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1979D102271187510046163C /* MyPassWorkerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPassWorkerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1979D106271187510046163C /* MyPassWorkerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassWorkerAppUITests.swift; sourceTree = "<group>"; };
 		1979D108271187510046163C /* MyPassWorkerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassWorkerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1979D1152711C1C90046163C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1979D1192712C3D50046163C /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			children = (
 				1979D0EB2711874B0046163C /* MyPassWorkerAppApp.swift */,
 				1979D0ED2711874B0046163C /* ContentView.swift */,
+				1979D1192712C3D50046163C /* ProfilePage.swift */,
 				1979D0EF271187510046163C /* Assets.xcassets */,
+				1979D1152711C1C90046163C /* CircleImage.swift */,
 				1979D0F1271187510046163C /* Preview Content */,
 			);
 			path = MyPassWorkerApp;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1979D0EE2711874B0046163C /* ContentView.swift in Sources */,
+				1979D11A2712C3D50046163C /* ProfilePage.swift in Sources */,
 				1979D0EC2711874B0046163C /* MyPassWorkerAppApp.swift in Sources */,
+				1979D1162711C1C90046163C /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

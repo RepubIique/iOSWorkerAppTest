@@ -8,9 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+//    init() {
+//    UITabBar.appearance().backgroundColor = UIColor.blue
+//
+//    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+           ProfilePage()
+                .tabItem {
+                    Image(systemName: "1.square.fill")
+                }
+            Text("Another Tab")
+                .tabItem {
+                    Image(systemName: "2.square.fill")
+                }
+            Text("The Last Tab")
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                }
+            Text("The Last Tab")
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                }
+            Text("The Last Tab")
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                }
+        }
+        .font(.headline)
     }
 }
 
